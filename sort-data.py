@@ -15,7 +15,7 @@ for file in glob.glob("*.csv"):
     df = pd.read_csv(file)
     #df.drop_duplicates(keep=False)
     df = df.drop(df[df['Schedule name'] == 'Schedule name'].index)
-    name = file + '-clean' + '.csv'
+    name = file[:-4] + '-clean' + '.csv'
     path = current_dir + '/clean-data/'
     df.to_csv(path+name, encoding='utf-8', index=False)
 
