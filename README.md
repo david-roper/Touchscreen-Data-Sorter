@@ -14,8 +14,8 @@ Requires python and Pandas package in order to run
 ## Run python code
 Keep your csv files in the same folder as the python code, run the code as so
 
-    ```
-        python3 sort-data.py
-    ```
-    
+```
+    python3 sort-data.py
+```
+
 Your data will end up in a generated clean-data folder within the directory
