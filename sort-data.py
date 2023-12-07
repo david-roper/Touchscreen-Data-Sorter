@@ -7,16 +7,18 @@ current_dir = os.getcwd()
 os.chdir(current_dir)
 
 i = 0
-if(not os.path.isdir('clean-data')):
-    os.mkdir(current_dir + '/clean-data/')
+if(not os.path.isdir('cleanData')):
+    os.mkdir(current_dir + '/cleanData/')
 
 for file in glob.glob("*.csv"):
-    print(file)
     df = pd.read_csv(file)
-    #df.drop_duplicates(keep=False)
-    df = df.drop(df[df['Schedule name'] == 'Schedule name'].index)
+    #this code drops all title rows that arent the first one
+    df = df.drop(df[df[df.columns[0]] == df.columns[0]].index)
+
     name = file[:-4] + '-clean' + '.csv'
-    path = current_dir + '/clean-data/'
+    path = current_dir + '/cleanData/'
     df.to_csv(path+name, encoding='utf-8', index=False)
+    print(file + ' is now cleaned')
+print('\ncleaned data files can be found in the /clean-data folder, thanks!')
 
 

@@ -1,9 +1,0 @@
-Schedule name,Environment name,Schedule run date,Database,Max_Number_Trials,Max_Schedule_Time,Trials Completed,Correct %,Left ITI Touches,Centre ITI Touches,Right ITI Touches,Correct touch latency,Blank Touch Latency,Correct Left touch latency,Correct Centre touch latency,Correct Right touch latency
-5CSRTT_Punish_Incorrect_Training_v3,Chamber 1 [Env. 19],2023-12-04 10:57:57 AM,3xTg_5CSRTT,30,3600,30,63.333,0,0,0,18.331,29.889,28.892,189.037,21.432
-5CSRTT_Punish_Incorrect_Training_v3,Chamber 2 [Env. 21],2023-12-04 10:57:05 AM,3xTg_5CSRTT,30,3600,30,76.667,2,0,1,8.83,10.519,18.4,68.782,7.203
-5CSRTT_Punish_Incorrect_Training_v3,Chamber 3 [Env. 23],2023-12-04 10:59:21 AM,3xTg_5CSRTT,30,3600,30,50,9,1,11,3.25,5.581,2.839,0,3.644
-5CSRTT_Punish_Incorrect_Training_v3,Chamber 4 [Env. 20],2023-12-04 11:00:51 AM,3xTg_5CSRTT,30,3600,30,80,3,0,0,5.7,7.364,17.037,24.339,7.274
-5CSRTT_Punish_Incorrect_Training_v3,Chamber 5 [Env. 22],2023-12-04 11:02:36 AM,3xTg_5CSRTT,30,3600,30,36.667,5,0,4,5.942,10.805,7.007,0,4.664
-5CSRTT_4000ms_Var1,Chamber 6 [Env. 27],2023-12-04 11:03:57 AM,3xTg_5CSRTT,50,3600,97.8,10,5,50,1.508,468,16,15,0,1.561
-5CSRTT_Punish_Incorrect_Training_v3,Chamber 7 [Env. 24],2023-12-04 11:05:55 AM,3xTg_5CSRTT,30,3600,30,53.333,13,1,34,8.831,5.165,26.921,92.54,6.202
-5CSRTT_4000ms_Var1,Chamber 8 [Env. 17],2023-12-04 11:07:49 AM,3xTg_5CSRTT,50,3600,78,18,5,50,1.469,3.15,17,11,0,2.325
