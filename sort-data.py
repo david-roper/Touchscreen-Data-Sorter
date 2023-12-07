@@ -6,7 +6,7 @@ current_dir = os.getcwd()
 
 os.chdir(current_dir)
 
-i = 0
+
 if(not os.path.isdir('cleanData')):
     os.mkdir(current_dir + '/cleanData/')
 
