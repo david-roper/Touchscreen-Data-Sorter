@@ -19,3 +19,7 @@ Keep your csv files in the same folder as the python code, run the code as so
 ```
 
 Your data will end up in a generated clean-data folder within the directory
+
+## Rules
+
+For now the data files should be in similar format to the samples within the repository, it currently removes any duplicate title rows but more filters can be added per request :)
